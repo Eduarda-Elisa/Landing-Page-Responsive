@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chicago Outdoor</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <script  defer src="./scripts/scripts.js"></script>
+    
+</head>
+
+<body>
+    <header>
+        <section class="nav">
+            <div class="nav__list">
+                <ul>
+                    <dl><a href="#outdoors">Markets</a></dl>
+                    <dl><a href="#Products">Products</a></dl>
+                    <dl><a href="#upload">About Us</a></dl>
+                    <dt><a href="#resouces">Resouces</a></dt>
+                </ul>
+            </div>
+            <h1>HH</h1>
+            <div class="nav__buttons">
+                <button class="nav__buttons__left">
+                    Advertising<img src="./assets/icons/seta-para-baixo.png"alt="">
+                </button>
+                <button class="nav__buttons__right">Gut in Touch </button>
+            </div>
+            <div class="nav__topic"onclick="expandCard()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="nav__mobile">
+                <ul>
+                    <dl><a href="#outdoors">Markets</a></dl>
+                    <dl><a href="#Products">Products</a></dl>
+                    <dl><a href="#upload">About Us</a></dl>
+                    <dl><a href="#resouces">Resouces</a></dl>
+                </ul>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="container">
+            <div class="container__home">
+                <img src="./assets/background-imgs/edificio.jpg" alt="">
+                <div class="container__home__text">
+                    <h1>Chicago</h1>
+                    <h2>Outdoor Ads</h2>
+                </div>
+                <div class="container__home__ctt">
+                    <h1>Sales Office</h1>
+                    <p>11, North Milwaukee Avenue<br>Suite 1500<br>Chicago, IL 60652<br>773-590-3778</p>
+                    <button>Contact Us</button>
+                </div>
+            </div>
+        </section>
+        <section  id="products" class="products">
+            <div class="products__left">
+                <h1>Produtos</h1>
+                <p>Technology and media solutions for cities,<br>transit systems, air travel, destinations, and<br>other public spaces.</p>
+            </div>
+            <div class="products__right">
+                <div class="products__right__transit">
+                    <div class="products__right__transit__tittle">
+                        <h1>Transit</h1>
+                        <span><img src="./assets/icons/onibus.png" alt=""></span> 
+                    </div>
+                    <div class="products__transit__blocks">
+                        <div class="products__transit__blocks__topleft">
+                            <h4>Interior Bus</h4>
+                        </div>
+                        <div class="products__transit__blocks__topcenter">
+                            <h4>Rail Station <br>Media</h4>
+                        </div>
+                        <div class="products__transit__blocks__topright">
+                            <h4>Digital Displays</h4>
+                        </div>
+                        <div class="products__transit__blocks__bottomleft">
+                            <h4>Interior Rail</h4>
+                        </div>
+                        <div class="products__transit__blocks__bottmright"><img src="./assets/icons/seta-direita.png"alt="">
+                            <h4>Exterior rail</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="products__right__air" onclick="expandAir()">
+                    <h3>Air</h3>
+                    <span><img src="./assets/icons/aviao.png" alt=""></span>
+                </div>
+                <div class="products__right__expand" onclick="expandAir()">
+                    <p>Traveling by plane offers speed and convenience, allowing you to explore new destinations in just a few hours.</p>
+                </div>
+                <div class="products__right__prog" onclick="expandProgamation()" >
+                    <h3>Programmatic</h3>
+                    <span><img src="./assets/icons/calendario.png" alt=""></span>
+                </div>
+                <div class="products__right__details" onclick="expandProgamation()">
+                    <p>See schedules for your destination</p>
+                </div>
+            </div>
+        </section>
+        <section class="image">
+            <img src="./assets/background-imgs/feijao.webp" alt="">
+        </section>
+        <section id="upload" class="upload">
+            <div class="upload__down">
+                <div class="upload__down__left">
+                    <h1>Chicago Highlights</h1>
+                    <button>Download Media Kit</button>
+                </div>
+                <div class="upload__down__right">
+                    <p>As one off North America's most innovative media<br>companies, we leverage the power of creative<br>
+                    excellence, unbeatable locations, and technology <br>driven smart audience datato change the game for <br>
+                    advertisers.</p>
+                </div>
+            </div>
+            <div class="upload__numb">
+                <div class="upload__numb__one">
+                    <h3>Chicagoans reach per week</h3>
+                    <h1>91%</h1>
+                </div>
+                <div class="upload__numb__two">
+                    <h3>Digital displays in Chicago's</h3>
+                    <h1>270+</h1>
+                </div>
+                <div class="upload__numb__three">
+                    <h3>Monthly CTA ridership</h3>
+                    <h1>32mm</h1>
+                </div>
+                <div class="upload__numb__four">
+                    <h3>Digital display in Chicago's</h3>
+                    <h1>43%</h1>
+                </div>
+            </div>
+        </section>
+        <section  id="outdoors" class="outdoors">
+            <div class="outdoors__one">
+                <img src="./assets/background-imgs/imagem1.png" alt="">
+            </div>
+            <div class="outdoors__two">
+                <img src="./assets/background-imgs/imagem2.jpg" alt="">
+            </div>
+            <div class="outdoors__three">
+                <img src="./assets/background-imgs/imagem3.jpg" alt="">
+            </div>
+        </section>
+    </main>
+    <footer id="resouces">
+        <div class="media">
+            <h1>Media</h1>
+            <ul>
+                <dl>Digital OOH</dl>
+                <dl>Billboards</dl>
+                <dl>Street Furniture</dl>
+                <dl>Place-based</dl>
+                <dl>Social OOH</dl>
+            </ul>
+        </div>
+        <div class="about">
+            <h1>About</h1>
+            <ul>
+                <dl>Leadership</dl>
+                <dl>Partners</dl>
+                <dl>Sustainability</dl>
+                <dl>Iventors</dl>
+            </ul>
+        </div>
+        <div class="resources">
+            <h1>Resources</h1>
+            <ul>
+                <dl>Blog</dl>
+                <dl>Media Kits</dl>
+                <dl>Case Stadies</dl>
+                <dl>Spaces</dl>
+            </ul>
+        </div>
+        <div class="conect">
+            <h1>Connect with us</h1>
+            <div class="conect__button">
+                <h3>E-mail</h3>
+                <img src="./assets/icons/seta-preta.png" alt="">
+            </div>
+            
+        </div>
+    </footer>
+
+</body>
+
+</html>
